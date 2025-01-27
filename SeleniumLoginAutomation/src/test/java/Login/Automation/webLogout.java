@@ -19,8 +19,8 @@ public class webLogout {
         WebElement login = driver.findElement(By.xpath("//input[@data-test='login-button']"));
         login.click();
         
-        WebElement menuButton = driver.findElement(By.id("react-burger-menu-btn"));
-        menuButton.click();
+       // WebElement menuButton = driver.findElement(By.id("react-burger-menu-btn"));
+       // menuButton.click();
         
         driver.quit();
 
